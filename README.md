@@ -72,6 +72,38 @@ licenses, credentials and reproducibility are reviewed.
 4. Make automation observable, attended and reversible.
 5. Document the boundary between evidence, inference and execution.
 
+## Technical surface
+
+Representative technologies and public code surfaces from the active systems:
+
+| Layer | Technologies / APIs |
+| --- | --- |
+| Languages | Python, SQL, JavaScript/TypeScript, HTML/CSS, Shell |
+| Backend | FastAPI, Uvicorn, aiohttp, Pydantic, SQLAlchemy |
+| Storage | PostgreSQL, DuckDB, JSON/JSONL, SQL migrations |
+| Market connectivity | Bybit V5 REST, WebSocket orderbook/trades, HMAC signing, retry and reconciliation |
+| Operations | Docker Compose, Make, systemd diagnostics, health checks, GitHub Actions, FFmpeg/Playwright |
+| AI tooling | Codex, GPT-5.6 protected routes, Context Bridge, MCP, Qwen web/desktop experiments |
+| Frontend | Native responsive HTML/CSS/JS, Chart.js, SVG/canvas visualizations |
+
+Representative classes, functions and routes include `BybitV5Client`,
+`BybitMcpSession`, `ConfigSettings`, `MarketData`, `Orderbook`, `Trade`,
+`MetricSnapshot`, `BalanceSnapshot`, `ThresholdSnapshot`, `GPTClient`,
+`MLPrediction`, `ChatIn`, `agent_context`, `bridge_status`, `agent_chat`,
+`build_spot_order_body`, `create_order`, `cancel_order`, `amend_order`,
+`order_realtime`, `order_history`, `get_open_orders`, `train_from_rows`,
+`predict`, `compute_indicators`, and `combined_from_weights`.
+
+### Nautilus Trader — evaluation track
+
+Nautilus Trader is **not installed or referenced in the current `_Metrics_`
+runtime**. It is an evaluation target for adapting the existing metrics and
+reconciliation layer to a more formal event-driven trading architecture. The
+intended study areas are adapters, `Actor`/`Strategy` lifecycle, data and order
+events, execution clients, and backtest/live parity. No Nautilus production or
+performance claim is made until a dedicated prototype is implemented and
+tested.
+
 ## Contact and links
 
 - [GitHub organization](https://github.com/NerThzBottZq)
