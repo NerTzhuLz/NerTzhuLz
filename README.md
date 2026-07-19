@@ -21,6 +21,46 @@
 | Automation | Discord/community tooling, APIs and operational workflows |
 | Quality | Small measurable fixes, tests, audit trails and safe demo environments |
 
+## Professional trajectory
+
+### 2020–2023 · Community automation and bots
+
+Early work focused on Python and JavaScript automation for Discord and gaming
+communities: event handlers, moderation helpers, data utilities and bot
+workflows. This period also included community operations and leadership in
+Latin gaming spaces. Public-facing descriptions intentionally omit member
+lists, private chats and financial records.
+
+### 2024–2025 · APIs, exchange research and trading systems
+
+The work expanded into FastAPI services, Bybit V5 integrations, orderbook
+metrics, backtesting and operational tooling. The Adjudicator/Bybit project
+family and related experiments explored order payloads, market data, error
+handling, execution state and database persistence.
+
+### 2026 · AI-assisted DevOps and evidence-first systems
+
+Current work combines PostgreSQL, DuckDB, WebSockets, local agent tooling,
+Trae/PyCharm workspaces, Qwen web/desktop experiments, Codex, GPT-5.6 and MCP.
+The focus is not simply adding an LLM: it is making systems reproducible,
+observable and explicit about the boundary between data, inference and
+execution.
+
+## Portfolio map
+
+| Portfolio | Representative work | Status |
+| --- | --- | --- |
+| Community automation | Discord bots, gaming utilities and operational helpers | Historical / selected public projects |
+| Exchange engineering | Adjudicator, Bybit V5, orderbook and execution experiments | Active research lineage |
+| Metrics and formulas | TSM exchange formulas, Discover Metrics, predictive snapshots | Active research / private workspaces |
+| AI development tools | Qwen web/desktop experiments, local agents, MCP and Context Bridge | Local and experimental |
+| Developer platforms | FastAPI services, Python IDE prototypes and operational APIs | Active / maintained selectively |
+| Control plane | NerTzh Metrics Control Plane | Current flagship |
+
+Private workspaces and historical backups are not linked as public projects
+until their licenses, dependencies, credentials and reproducibility are
+reviewed.
+
 ## Flagship: NerTzh Metrics Control Plane
 
 <a href="https://github.com/NerTzhuLz/NerTzh"><img align="right" width="360" src="https://github.com/NerTzhuLz/NerTzh/raw/main/assets/branding/logo.png" alt="NerTzh"/></a>
