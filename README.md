@@ -5,6 +5,15 @@
   Building software that makes state, evidence and operational boundaries visible.
 </p>
 
+### Technology map
+
+`Python` · `FastAPI` · `Uvicorn` · `aiohttp` · `Pydantic` · `SQLAlchemy` ·
+`PostgreSQL` · `DuckDB` · `WebSockets` · `Bybit V5 REST/WS` · `HMAC signing` ·
+`Docker Compose` · `Make` · `systemd` · `GitHub Actions` · `Playwright` ·
+`FFmpeg` · `HTML/CSS/JavaScript` · `Chart.js` · `SVG/Canvas` · `MCP` ·
+`Context Bridge` · `Codex` · `GPT-5.6` · `Qwen web/desktop tooling` ·
+`scikit-learn/XGBoost experiments` · `Nautilus Trader (evaluation track)`
+
 <p align="center">
   <a href="https://github.com/NerTzhuLz/NerTzh"><img src="https://img.shields.io/badge/flagship-NerTzh-0ea5e9?style=for-the-badge" alt="NerTzh"/></a>
   <a href="https://devpost.com/software/nertzh"><img src="https://img.shields.io/badge/OpenAI-Build%20Week-8b5cf6?style=for-the-badge" alt="OpenAI Build Week"/></a>
